@@ -20,7 +20,7 @@ CREATE TABLE Game_genre (
 )
 
 CREATE TABLE Rating (
-    id INT(5),
+    id INT(6),
     user_rating DECIMAL(3),
     website_rating DECIMAL(3),
     PRIMARY KEY (id)
@@ -32,7 +32,7 @@ CREATE TABLE Platform (
 )
 
 CREATE TABLE Game_plat (
-    game_id INT(5),
+    game_id INT(6),
     plat_name VARCHAR(20),
     PRIMARY KEY (id, plat_name),
     CONSTRAINT FOREIGN KEY game_id REFERENCES Game(id),
@@ -47,7 +47,7 @@ CREATE TABLE Classification (
 )
 
 CREATE TABLE Game_class (
-    game_id INT(5),
+    game_id INT(6),
     class_name VARCHAR(20),
     PRIMARY KEY (id, class_name),
     CONSTRAINT FOREIGN KEY game_id REFERENCES Game(id),
@@ -55,7 +55,7 @@ CREATE TABLE Game_class (
 )
 
 CREATE TABLE Website (
-    id INT(5),
+    id INT(6),
     vg_url VARCHAR(256),
     photo_url VARCHAR(256)
     PRIMARY KEY (id)
