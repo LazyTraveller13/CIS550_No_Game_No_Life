@@ -32,7 +32,7 @@
 ```
     npm install --save react-google-login-component
     npm install --save store
-    npm install --sace axios
+    npm install --save axios
     npm install --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
     npm install --save styled-components
 ```
