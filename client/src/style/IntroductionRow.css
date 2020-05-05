@@ -1,0 +1,12 @@
+introduction.release_year introduction.website_rating introduction.user_rating introduction.platform introduction.developer introduction.class {
+  color: white;
+}
+
+#storyline {
+  width: 500px;
+}
+
+
+.introduction div {
+  width: 500px;
+}

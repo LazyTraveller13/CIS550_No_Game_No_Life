@@ -1,0 +1,80 @@
+
+
+.Dashboard-container{
+  width:1050px;
+  /*display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.GameKingdom{
+	font-family: Cinzel;
+	font-size: 40px;
+	color: #5E7EBE;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.jumbotron
+{
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.form-group{
+	
+	width: 500px; 
+	height: 20px
+
+}
+.form-control{
+	text-align: center;
+}
+
+figure {
+  display: inline-block;
+  border-radius: 10px;
+  margin: 10px;
+}
+figure img {
+  border: 1px dotted gray;
+  vertical-align: top;
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+  opacity: 0.8;
+}
+
+figure img:hover {
+  opacity: 1.0;
+}
+
+figure figcaption {
+  border-radius: 10px;
+  text-align: center;
+  width: 180px;
+
+}
+
+.Warning{
+  width:1050px;
+  /*display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 25px;
+  color:  white;
+
+}
+.Searchbar{
+  font-size: 40px;
+  text-align: center;
+  height: 40px;
+  color: #5E7EBE;
+}
+

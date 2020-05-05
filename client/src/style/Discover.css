@@ -1,0 +1,61 @@
+.discover-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10px;
+
+}
+
+ .discover-container .attri,  .discover-container .game1Results {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+
+}
+
+.game1Results  .user_rating, .game1Results  .website_rating, .game1Results  .Name, .game1Results  .Year, .game1Results  .rating {
+
+  flex: 1 0 25%;
+  font-family: Segoe UI;
+  font-size: 20px;
+  color: rgb(212,147,159);
+
+}
+
+
+.GF{
+	font-family: Cinzel;
+	font-size: 40px;
+	color:rgb(96,96,109);
+}
+
+.dropdown
+{
+	height: 29px;
+}
+
+.submit-btn{
+	font-family: Cinzel;
+	background-color: #696969;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.jumbotron-special
+{
+	background-image: url('https://img.freepik.com/free-photo/black-textured-background_24972-764.jpg?size=626&ext=jpg') !important;
+    background-size: cover;
+   	/*color: #2c3e50 !important;
+	background: rgb(96,96,109) !important;*/
+}
+.attri .header{
+	flex: 1 0 25%;
+  	color: rgb(197,198,206);
+  	font-size: 25px;
+  	font-family: Segoe UI;
+    margin-bottom: 25px;
+}
+
+

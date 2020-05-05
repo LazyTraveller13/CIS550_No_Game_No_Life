@@ -1,0 +1,51 @@
+.genres-container {
+  /* margin: 10px 0; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.genres-container .genre {
+  flex: 1 0 20%;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.genres-container .genre:hover {
+  background-color: #ddd;
+}
+
+.movies-container .movies-header, .results-container .movie {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+
+}
+
+.movie .title, .movies-header .header-lg {
+  flex: 1 0 50%;
+}
+
+.movies-header .header, .movie .rating, .movie .votes {
+  flex: 1 0 25%;
+}
+.movie-box{
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+  margin:5px;
+  margin-top: 10px;
+  padding:5px;
+
+}
+
+.res-container {
+  display: flex;
+  flex-flow: column wrap;
+  /* margin-top: 10px; */
+}
+

@@ -1,0 +1,59 @@
+figure {
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  figure img {
+    border: 1px dotted gray;
+    vertical-align: top;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    opacity: 0.8;
+  }
+  
+  figure img:hover {
+    opacity: 1.0;
+  }
+  
+  figure figcaption {
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-flow: column wrap;
+    /* margin-top: 10px; */
+  }
+  
+  .header-container .headers .results-container .gameResults {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .gameResults .name, .gameResults .id, .gameResults .release_year, .gameResults .user_rating, .gameResults .website_rating, .headers .header {
+    flex: 1 0 10%;
+  }
+  
+  
+
+  #left {
+      float: left;
+  }
+
+  #right {
+      float: right;
+  }
+
+.compar{
+  text-align: center;
+  font-size: 30px;
+  color: #5E7EBE;  
+  height: 10px;
+}
+
+

@@ -1,0 +1,78 @@
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 120px 0;
+    }
+
+    .Login form {
+      margin: 0px auto;
+      max-width: 320px;
+    }
+
+    .GoogleLogin {
+        margin: 0 auto;
+        max-width: 320px;
+
+
+    }
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+h5 {
+    color: whitesmoke;
+}
+
+input[type=text], input[type=password] {
+  border-radius: 10px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  opacity: 0.93;
+}
+
+input[type=button] {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.93;
+}
+
+.Sign {
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.93;
+}
+
+.google-login{
+  border-radius: 10px;
+  background-color: coral;
+  margin: 0 auto;
+  max-width: 320px;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.93;
+ 
+}
