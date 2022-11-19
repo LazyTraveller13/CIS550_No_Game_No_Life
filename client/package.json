@@ -18,7 +18,7 @@
     "react-dropdown": "^1.6.4",
     "react-google-login-component": "^0.9.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.3.1",
+    "react-scripts": "^5.0.1",
     "redirect": "^0.2.0",
     "save": "^2.4.0",
     "selenium-webdriver": "^4.0.0-alpha.5",
